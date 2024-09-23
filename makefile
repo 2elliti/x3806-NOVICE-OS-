@@ -5,7 +5,7 @@ SRC_DIR = src
 BUILD_DIR = build 
 
 
-
+.BUILDALL: all floppy_image kernel bootlader clean
 
 #***********************************************************#
 #                     FLOPPY IMAGE                          #
